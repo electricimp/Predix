@@ -26,7 +26,7 @@
 #require "bullwinkle.class.nut:2.3.2"
 #require "promise.class.nut:3.0.0"
 // Web Integration Library
-#require "Predix.agent.nut:1.0.0"
+#require "Predix.class.nut:1.0.0"
 
 // Class that receives and handles data sent from device SmartFridgeApp
 /***************************************************************************************

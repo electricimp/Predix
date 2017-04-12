@@ -18,11 +18,11 @@ If you want to manage your connected device(s) and see the data from them in Pre
 
 For more information about Predix platform setup and usage, please see [the Predix Documentation](https://www.predix.io/docs).
 
-**To add this library to your project, add** `#require "Predix.agent.nut:1.0.0"` **and** `#require "Promise.class.nut:3.0.1"` **to the top of your agent code.**
+**To add this library to your project, add** `#require "Predix.class.nut:1.0.0"` **and** `#require "Promise.class.nut:3.0.1"` **to the top of your agent code.**
 
 ## Library Usage
 
-The library API is detailed in the source file, [here](./Predix.agent.nut).
+The library API is detailed in the source file, [here](./Predix.class.nut).
 
 ### Constructor: Predix(*uaaUrl, clientId, clientSecret, assetUrl, assetZoneId, timeSeriesIngestUrl, timeSeriesZoneId*)
 
@@ -39,7 +39,7 @@ and pass each of the these initialization data into the constructor:
 
 ```squirrel
 #require "promise.class.nut:3.0.1"
-#require "Predix.agent.nut:1.0.0"
+#require "Predix.class.nut:1.0.0"
 
 predix <- Predix(<"YOUR_UUA_URL">, <"YOUR_CLIENT_ID">, <"YOUR_CLIENT_SECRET">, <"YOUR_ASSET_URL">, 
                  <"YOUR_ASSET_ZONE_ID">, <"YOUR_TIME_SERIES_INGEST_URL">, <"YOUR_TIME_SERIES_ZONE_ID">);

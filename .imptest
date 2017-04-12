@@ -3,7 +3,7 @@
     "devices": [
         "234776801163a9ee"
     ],
-    "agentFile": "Predix.agent.nut",
+    "agentFile": "Predix.class.nut",
     "deviceFile": false,
     "stopOnFailure": false,
     "timeout": 30,

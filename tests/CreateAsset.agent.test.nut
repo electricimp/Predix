@@ -22,13 +22,13 @@
 // ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 // OTHER DEALINGS IN THE SOFTWARE.
 
-const UAA_URL                   = "#{env:PREDIX_UAA_URL}";
-const CLIENT_ID                 = "#{env:PREDIX_CLIENT_ID}";
-const CLIENT_SECRET             = "#{env:PREDIX_CLIENT_SECRET}";
-const ASSET_URL                 = "#{env:PREDIX_ASSET_URL}";
-const ASSET_ZONE_ID             = "#{env:PREDIX_ASSET_ZONE_ID}";
-const TIME_SERIES_INGEST_URL    = "#{env:PREDIX_TIME_SERIES_INGEST_URL}";
-const TIME_SERIES_ZONE_ID       = "#{env:PREDIX_TIME_SERIES_ZONE_ID}";
+const UAA_URL                   = "@{PREDIX_UAA_URL}";
+const CLIENT_ID                 = "@{PREDIX_CLIENT_ID}";
+const CLIENT_SECRET             = "@{PREDIX_CLIENT_SECRET}";
+const ASSET_URL                 = "@{PREDIX_ASSET_URL}";
+const ASSET_ZONE_ID             = "@{PREDIX_ASSET_ZONE_ID}";
+const TIME_SERIES_INGEST_URL    = "@{PREDIX_TIME_SERIES_INGEST_URL}";
+const TIME_SERIES_ZONE_ID       = "@{PREDIX_TIME_SERIES_ZONE_ID}";
 
 const ASSET_TYPE = "test_device";
 const ASSET_TYPE_2 = "test_device_2";
